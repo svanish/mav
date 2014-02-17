@@ -18,7 +18,7 @@
         ${content}
       </div>
       <div id="footer">
-        <span class="copyright">2008-${currentDate?string("yyyy")}</span> ©
+        <span class="copyright">2009-${currentDate?string("yyyy")}</span> ©
         <a class="home" href="http://${request.headers['Host']!"localhost"}">
           ${request.headers['Host']!"localhost"}
         </a>
